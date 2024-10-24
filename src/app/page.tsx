@@ -14,7 +14,7 @@ export default async function Home() {
   const bothMatchesMerged = await FootballService.getMerged(over05Matches, over25Matches);
 
   return (
-    <main className="h-full flex gap-6 justify-between p-6  ">
+    <main className="h-full flex gap-6 justify-between p-6  flex-wrap">
       <Card className="flex-1">
         <CardHeader>
           <CardTitle>+0.5 HT</CardTitle>
