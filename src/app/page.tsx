@@ -15,6 +15,10 @@ export default async function Home() {
 
   return (
     <main className="h-full flex-col p-6">
+      <header className="mb-6">
+        <p className="text-3xl font-bold">Jogos de { new Date().toISOString().split('T')[0] }</p>
+      </header>
+
       <div className="flex gap-6 justify-between flex-wrap">
         <Card className="flex-1">
           <CardHeader>
