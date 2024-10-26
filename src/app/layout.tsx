@@ -3,7 +3,7 @@ import { Inter } from "next/font/google";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "Estratégia 0.5",
+  title: "Estratégia 0.5", 
   description: "Algumas métricas feitas em cima dos dados presentes",
 };
 
