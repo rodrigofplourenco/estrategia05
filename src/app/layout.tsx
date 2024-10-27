@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   title: "Estratégia 0.5", 
   description: "Algumas métricas feitas em cima dos dados presentes",
 };
-
+ 
 const inter = Inter({ subsets: ['latin'] })
 
 export default function RootLayout({
